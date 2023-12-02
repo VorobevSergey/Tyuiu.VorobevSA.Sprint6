@@ -37,13 +37,13 @@ namespace Tyuiu.VorobevSA.Sprint6.Task0.V24
             this.textBoxVarX_VSA = new System.Windows.Forms.TextBox();
             this.groupBoxOutResult_VSA = new System.Windows.Forms.GroupBox();
             this.textBoxResaut_VSA = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxFormula_VSA = new System.Windows.Forms.PictureBox();
             this.buttonDane_VSA = new System.Windows.Forms.Button();
             this.buttonHelp_VSA = new System.Windows.Forms.Button();
             this.groupBoxUslovie_VSA.SuspendLayout();
             this.groupBoxEnterDano_VSA.SuspendLayout();
             this.groupBoxOutResult_VSA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_VSA)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxUslovie_VSA
@@ -111,15 +111,15 @@ namespace Tyuiu.VorobevSA.Sprint6.Task0.V24
             this.textBoxResaut_VSA.Size = new System.Drawing.Size(100, 22);
             this.textBoxResaut_VSA.TabIndex = 0;
             // 
-            // pictureBox1
+            // pictureBoxFormula_VSA
             // 
-            this.pictureBox1.ErrorImage = null;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(556, 24);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(183, 45);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxFormula_VSA.ErrorImage = null;
+            this.pictureBoxFormula_VSA.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFormula_VSA.Image")));
+            this.pictureBoxFormula_VSA.Location = new System.Drawing.Point(556, 24);
+            this.pictureBoxFormula_VSA.Name = "pictureBoxFormula_VSA";
+            this.pictureBoxFormula_VSA.Size = new System.Drawing.Size(183, 45);
+            this.pictureBoxFormula_VSA.TabIndex = 1;
+            this.pictureBoxFormula_VSA.TabStop = false;
             // 
             // buttonDane_VSA
             // 
@@ -149,7 +149,7 @@ namespace Tyuiu.VorobevSA.Sprint6.Task0.V24
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonHelp_VSA);
             this.Controls.Add(this.buttonDane_VSA);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxFormula_VSA);
             this.Controls.Add(this.groupBoxOutResult_VSA);
             this.Controls.Add(this.groupBoxEnterDano_VSA);
             this.Controls.Add(this.groupBoxUslovie_VSA);
@@ -165,7 +165,7 @@ namespace Tyuiu.VorobevSA.Sprint6.Task0.V24
             this.groupBoxEnterDano_VSA.PerformLayout();
             this.groupBoxOutResult_VSA.ResumeLayout(false);
             this.groupBoxOutResult_VSA.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_VSA)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -175,7 +175,7 @@ namespace Tyuiu.VorobevSA.Sprint6.Task0.V24
         private System.Windows.Forms.GroupBox groupBoxUslovie_VSA;
         private System.Windows.Forms.GroupBox groupBoxEnterDano_VSA;
         private System.Windows.Forms.GroupBox groupBoxOutResult_VSA;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxFormula_VSA;
         private System.Windows.Forms.Label labelUslovie;
         private System.Windows.Forms.Label labelVarA_VSA;
         private System.Windows.Forms.TextBox textBoxVarX_VSA;

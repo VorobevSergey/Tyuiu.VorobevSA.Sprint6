@@ -29,6 +29,7 @@ namespace Tyuiu.VorobevSA.Sprint6.Task1.V14
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.groupBoxUslovie_VSA = new System.Windows.Forms.GroupBox();
             this.labelUslovie2_VSA = new System.Windows.Forms.Label();
             this.labelUslovie_VSA = new System.Windows.Forms.Label();
@@ -42,13 +43,16 @@ namespace Tyuiu.VorobevSA.Sprint6.Task1.V14
             this.groupBoxOutResult_VSA = new System.Windows.Forms.GroupBox();
             this.textBoxRezult_VSA = new System.Windows.Forms.TextBox();
             this.labelRezult_VSA = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBoxUslovie_VSA.SuspendLayout();
             this.groupBoxEnterDano_VSA.SuspendLayout();
             this.groupBoxOutResult_VSA.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxUslovie_VSA
             // 
+            this.groupBoxUslovie_VSA.Controls.Add(this.pictureBox1);
             this.groupBoxUslovie_VSA.Controls.Add(this.labelUslovie2_VSA);
             this.groupBoxUslovie_VSA.Controls.Add(this.labelUslovie_VSA);
             this.groupBoxUslovie_VSA.Location = new System.Drawing.Point(13, 13);
@@ -173,6 +177,15 @@ namespace Tyuiu.VorobevSA.Sprint6.Task1.V14
             this.labelRezult_VSA.TabIndex = 0;
             this.labelRezult_VSA.Text = "Разультат;";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(16, 63);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(167, 61);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -194,6 +207,7 @@ namespace Tyuiu.VorobevSA.Sprint6.Task1.V14
             this.groupBoxEnterDano_VSA.PerformLayout();
             this.groupBoxOutResult_VSA.ResumeLayout(false);
             this.groupBoxOutResult_VSA.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -213,6 +227,7 @@ namespace Tyuiu.VorobevSA.Sprint6.Task1.V14
         private System.Windows.Forms.GroupBox groupBoxOutResult_VSA;
         private System.Windows.Forms.Label labelRezult_VSA;
         private System.Windows.Forms.TextBox textBoxRezult_VSA;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
