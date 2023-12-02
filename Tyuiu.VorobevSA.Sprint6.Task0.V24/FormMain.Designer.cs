@@ -158,6 +158,7 @@ namespace Tyuiu.VorobevSA.Sprint6.Task0.V24
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 0 | Вариант24 | Воробьев С.А.";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBoxUslovie_VSA.ResumeLayout(false);
             this.groupBoxUslovie_VSA.PerformLayout();
             this.groupBoxEnterDano_VSA.ResumeLayout(false);

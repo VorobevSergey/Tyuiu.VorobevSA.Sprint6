@@ -43,5 +43,10 @@ namespace Tyuiu.VorobevSA.Sprint6.Task0.V24
         {
             MessageBox.Show("Таск 0 Выполнил студент группы ПКТб 23-2 Воробьев Сергей Александрович", "Сообщение",MessageBoxButtons.OK);
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
