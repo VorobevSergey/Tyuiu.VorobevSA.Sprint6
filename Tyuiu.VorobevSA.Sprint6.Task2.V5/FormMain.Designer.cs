@@ -29,11 +29,12 @@ namespace Tyuiu.VorobevSA.Sprint6.Task2.V5
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.groupBoxUslovie_VSA = new System.Windows.Forms.GroupBox();
+            this.pictureBoxFormula_VSA = new System.Windows.Forms.PictureBox();
             this.labelUslovie2_VSA = new System.Windows.Forms.Label();
             this.labelUslovie_VSA = new System.Windows.Forms.Label();
             this.groupBoxEnterDano_VSA = new System.Windows.Forms.GroupBox();
@@ -49,13 +50,12 @@ namespace Tyuiu.VorobevSA.Sprint6.Task2.V5
             this.buttonHelp_VSA = new System.Windows.Forms.Button();
             this.buttonDane_VSA = new System.Windows.Forms.Button();
             this.chartFunction = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.pictureBoxFormula_VSA = new System.Windows.Forms.PictureBox();
             this.groupBoxUslovie_VSA.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_VSA)).BeginInit();
             this.groupBoxEnterDano_VSA.SuspendLayout();
             this.groupBoxOutResult_VSA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFunction_VSA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_VSA)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxUslovie_VSA
@@ -69,6 +69,16 @@ namespace Tyuiu.VorobevSA.Sprint6.Task2.V5
             this.groupBoxUslovie_VSA.TabIndex = 0;
             this.groupBoxUslovie_VSA.TabStop = false;
             this.groupBoxUslovie_VSA.Text = "Условие";
+            // 
+            // pictureBoxFormula_VSA
+            // 
+            this.pictureBoxFormula_VSA.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFormula_VSA.Image")));
+            this.pictureBoxFormula_VSA.Location = new System.Drawing.Point(0, 55);
+            this.pictureBoxFormula_VSA.Name = "pictureBoxFormula_VSA";
+            this.pictureBoxFormula_VSA.Size = new System.Drawing.Size(287, 46);
+            this.pictureBoxFormula_VSA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxFormula_VSA.TabIndex = 1;
+            this.pictureBoxFormula_VSA.TabStop = false;
             // 
             // labelUslovie2_VSA
             // 
@@ -216,17 +226,7 @@ namespace Tyuiu.VorobevSA.Sprint6.Task2.V5
             this.chartFunction.Series.Add(series2);
             this.chartFunction.Size = new System.Drawing.Size(585, 419);
             this.chartFunction.TabIndex = 5;
-            this.chartFunction.Text = "chart1";
-            // 
-            // pictureBoxFormula_VSA
-            // 
-            this.pictureBoxFormula_VSA.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFormula_VSA.Image")));
-            this.pictureBoxFormula_VSA.Location = new System.Drawing.Point(0, 55);
-            this.pictureBoxFormula_VSA.Name = "pictureBoxFormula_VSA";
-            this.pictureBoxFormula_VSA.Size = new System.Drawing.Size(287, 46);
-            this.pictureBoxFormula_VSA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBoxFormula_VSA.TabIndex = 1;
-            this.pictureBoxFormula_VSA.TabStop = false;
+            this.chartFunction.Text = "График функции";
             // 
             // FormMain
             // 
@@ -240,16 +240,16 @@ namespace Tyuiu.VorobevSA.Sprint6.Task2.V5
             this.Controls.Add(this.groupBoxEnterDano_VSA);
             this.Controls.Add(this.groupBoxUslovie_VSA);
             this.Name = "FormMain";
-            this.Text = "Form1";
+            this.Text = "Спринт 6 | Таск 3 | Вариант5 | Воробьев С.А.";
             this.groupBoxUslovie_VSA.ResumeLayout(false);
             this.groupBoxUslovie_VSA.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_VSA)).EndInit();
             this.groupBoxEnterDano_VSA.ResumeLayout(false);
             this.groupBoxEnterDano_VSA.PerformLayout();
             this.groupBoxOutResult_VSA.ResumeLayout(false);
             this.groupBoxOutResult_VSA.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFunction_VSA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_VSA)).EndInit();
             this.ResumeLayout(false);
 
         }
